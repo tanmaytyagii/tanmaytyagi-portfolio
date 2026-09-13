@@ -118,7 +118,7 @@ export const career: CareerEntry[] = [
     organisation: "Bennett University",
     period: "2023",
     summary:
-      "Computer Science and Engineering in Greater Noida, 8.63/10 SGPA, expected May 2027. Coursework across data structures, operating systems, DBMS and computer networks, alongside research on retrieval-augmented architectures.",
+      "Computer Science and Engineering student in Greater Noida with an 8.63/10 SGPA, expected to graduate in May 2027. Coursework across data structures, operating systems, DBMS and computer networks, alongside research on retrieval-augmented architectures.",
   },
   {
     role: "Software Engineer Intern",
