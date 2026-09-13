@@ -1,6 +1,6 @@
 import { MdCopyright } from "react-icons/md";
 import "./styles/Contact.css";
-import { designCredit, identity } from "../data/profile";
+import { identity } from "../data/profile";
 
 /**
  * Contact answers one question: how to reach Tanmay. Profile links live in the
@@ -27,19 +27,6 @@ const Contact = () => {
             <h2>
               Built and maintained <br /> by <span>{identity.shortName}</span>
             </h2>
-            {designCredit.show && (
-              <p className="contact-credit">
-                {designCredit.prefix}{" "}
-                <a
-                  href={designCredit.url}
-                  target="_blank"
-                  rel="noreferrer"
-                  data-cursor="disable"
-                >
-                  {designCredit.name}
-                </a>
-              </p>
-            )}
             <h5>
               <MdCopyright /> {new Date().getFullYear()}
             </h5>

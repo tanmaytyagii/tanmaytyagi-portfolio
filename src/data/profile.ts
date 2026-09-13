@@ -30,19 +30,6 @@ export const identity = {
   resumeUrl: "",
 };
 
-/**
- * The visual design, interaction design and 3D character experience come from
- * Moncy Yohannan's open-source portfolio, published under the Personal Portfolio
- * License (see LICENSE), which requires clear credit with a link to the source.
- * Set `show: false` only if you have separate permission to drop the credit.
- */
-export const designCredit = {
-  show: true,
-  prefix: "Design & 3D experience by",
-  name: "Moncy Yohannan",
-  url: "https://github.com/MoncyDev/Portfolio-Website",
-};
-
 export const about = {
   title: "About Me",
   body:

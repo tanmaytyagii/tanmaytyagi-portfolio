@@ -34,16 +34,6 @@
 .contact-box h2 > span {
   color: var(--accentColor);
 }
-.contact-flex p.contact-credit {
-  font-size: 13px;
-  font-weight: 300;
-  letter-spacing: 0.3px;
-  opacity: 0.45;
-  margin: 12px 0 16px;
-}
-.contact-flex p.contact-credit a {
-  border-bottom: 1px solid currentColor;
-}
 .contact-box h5 {
   font-size: 20px;
   font-weight: 500;
