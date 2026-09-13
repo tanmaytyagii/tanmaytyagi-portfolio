@@ -1,31 +1,112 @@
-# Personal Portfolio License (PPL) v1.0
+Personal Portfolio License (PPL) v1.0
+=====================================
 
-Copyright (c) 2026 Tanmay Tyagi
+Copyright (c) 2026 Tanmay Tyagi. All rights reserved.
 
-This project is made available publicly for learning and reference purposes only.
+This repository is published openly so that others can read it, learn from it and
+build on the ideas in it. It is not published as a template to be redeployed
+unchanged. The terms below say precisely what that means.
 
-## Permissions
-You may:
-- View and study the code
-- Use small portions for personal learning
-- Build your own projects inspired by this work
 
-## Restrictions
-You may NOT:
-- Copy, replicate, or clone the entire website, design, or experience
-- Use this project or its derivatives for commercial purposes
-- Re-upload, redistribute, or resell this project
-- Create tutorials, videos, or courses based on this exact project without permission
-- Use any original assets (including 3D models, avatar, or visuals)
+1. SCOPE
+--------
 
-## Attribution
-If you use any part of this project, you must give clear credit to:
-“Tanmay Tyagi” with a link to the original source.
+This license applies ONLY to the original source code authored for this project —
+principally the contents of `src/`, `index.html`, the project's own build helper
+scripts, and the build, lint and TypeScript configuration at the repository root.
 
-## Assets & 3D Content
-All 3D assets, including the avatar, models, textures, and visual elements are proprietary and NOT part of this license.
+This license does NOT apply to, and grants no rights whatsoever over:
 
-They may not be copied, used, or redistributed under any circumstances without explicit permission.
+  (a) Third-party software dependencies, whether installed from a package
+      registry or vendored into this repository. This includes, for example,
+      GSAP, Three.js, React and the Draco decoder in `public/draco/`. Each
+      remains governed solely by its own license, and nothing here modifies,
+      replaces or supersedes those terms.
 
-## Enforcement
-Unauthorized use may result in DMCA takedown requests or legal action.
+  (b) Fonts and icon sets, which remain under their respective licenses.
+
+  (c) Bundled media assets, including the 3D character model
+      (`public/models/character.enc`), the HDR environment map, imagery and
+      textures. These may be subject to separate licensing terms. No rights to
+      them are granted by this document, and their provenance is not warranted.
+
+Both categories are itemized in NOTICE.md. Nothing in this license should be read
+as a claim of authorship or ownership over third-party material, and nothing in
+it may be relied upon as permission to reuse such material.
+
+
+2. GRANT
+--------
+
+Subject to Section 3, you are permitted to:
+
+  - View, read, study and reference the source code;
+  - Run the project locally for personal, educational or evaluation purposes;
+  - Reuse limited portions of the code — an individual component, utility or
+    technique — in your own projects;
+  - Build original work inspired by the architecture and approaches used here.
+
+
+3. RESTRICTIONS
+---------------
+
+You may not, without prior written permission from the copyright holder:
+
+  - Copy, clone or redeploy this website, its design or its overall experience,
+    in whole or in substantial part, as your own portfolio or as any other
+    public-facing site;
+  - Use this project or a derivative of it for commercial purposes;
+  - Re-upload, redistribute, sublicense or sell this project;
+  - Produce tutorials, courses, videos or paid content built around this specific
+    project.
+
+Separately, and regardless of any permission granted above: the bundled media
+assets described in Section 1(c) are not licensed for reuse through this
+document, and permission to reuse them cannot be granted here. Anyone wanting to
+use them must establish their own rights to do so from whoever holds them.
+
+Forking this repository to build your own portfolio is welcome, provided the
+personal content is replaced with your own, the bundled media assets in
+Section 1(c) are replaced or removed, and the result is not a redeployment of
+this site's design.
+
+
+4. ATTRIBUTION
+--------------
+
+If you reuse a meaningful portion of the original source code, credit
+"Tanmay Tyagi" with a link to this repository.
+
+This requirement is additional to — and never a substitute for — any attribution
+or notice required by the licenses of third-party material listed in NOTICE.md.
+Those notices must be preserved.
+
+
+5. PERSONAL CONTENT
+-------------------
+
+The personal and biographical content in this repository — name, likeness,
+career history, project descriptions, research summaries, credentials and contact
+details — identifies a specific individual and is not licensed for reuse under
+any circumstances.
+
+
+6. NO WARRANTY
+--------------
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHOR OR
+COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
+AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+7. ENFORCEMENT
+--------------
+
+Use outside the terms above may result in a DMCA takedown request or other
+action available under applicable law.
+
+
+Questions, or a use case not covered here: tanmaytyagi68@gmail.com

@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: View the live site
+    url: https://tanmaytyagi-portfolio.vercel.app/
+    about: Check whether the issue reproduces on the deployed build first.
+  - name: Forking this for your own portfolio
+    url: https://github.com/tanmaytyagii/tanmaytyagi-portfolio#fork-and-customize
+    about: Setup, customization and licensing are covered in the README — start there.
+  - name: Licensing or asset reuse question
+    url: https://github.com/tanmaytyagii/tanmaytyagi-portfolio/blob/main/NOTICE.md
+    about: What is and isn't covered by this project's license.

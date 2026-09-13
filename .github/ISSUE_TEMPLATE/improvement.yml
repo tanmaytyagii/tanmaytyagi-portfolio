@@ -1,0 +1,66 @@
+name: Improvement
+description: A performance, accessibility or code-quality improvement
+title: "[Improvement]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This is a personal portfolio, so new features and redesigns are usually
+        out of scope — see
+        [CONTRIBUTING.md](https://github.com/tanmaytyagii/tanmaytyagi-portfolio/blob/main/CONTRIBUTING.md).
+        Improvements to how the existing thing works are very welcome.
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Performance (bundle size, loading, animation cost)
+        - Accessibility (reduced motion, keyboard, focus, semantics)
+        - Code quality (types, lifecycle, cleanup, lint)
+        - Build or tooling
+        - Documentation
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What's the problem
+      description: >
+        Describe the current behaviour and why it's worth changing. Concrete
+        beats abstract — a measurement, a file and line, or a specific symptom.
+      placeholder: |
+        The tech-stack chunk is the largest artifact in the build. It's already
+        desktop-gated and lazy-loaded, but the Rapier WASM binary dominates it
+        and could be deferred until the section is actually in view.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed approach
+      description: How you'd address it. A rough sketch is fine.
+    validations:
+      required: true
+
+  - type: textarea
+    id: tradeoffs
+    attributes:
+      label: Trade-offs
+      description: What gets worse, or what might break. Say so honestly.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues and this isn't a duplicate
+          required: true
+        - label: This doesn't change the personal content in `src/data/`
+          required: true
+        - label: I'm willing to open a PR for this
+          required: false

@@ -1,0 +1,98 @@
+name: Bug report
+description: Something renders, scrolls or behaves incorrectly
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting this. Rendering and scroll issues are very
+        device-dependent, so the environment details below matter more than
+        usual.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you saw, and what you expected instead.
+      placeholder: |
+        The horizontal work section stops scrolling halfway through and the last
+        two project cards stay off screen.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open the site
+        2. Scroll to the Work section
+        3. Keep scrolling
+        4. The track stops moving after the fourth card
+    validations:
+      required: true
+
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where did you see this?
+      options:
+        - The live site
+        - A local build (npm run dev)
+        - A local production build (npm run build + npm run preview)
+        - My own fork
+    validations:
+      required: true
+
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and version
+      placeholder: "Chrome 131, Safari 18.1, Firefox 133"
+    validations:
+      required: true
+
+  - type: input
+    id: os
+    attributes:
+      label: OS and device
+      placeholder: "macOS 15.1 on M2 MacBook Air / Android 14 on Pixel 7"
+    validations:
+      required: true
+
+  - type: input
+    id: viewport
+    attributes:
+      label: Viewport width and zoom level
+      description: >
+        The layout branches hard at 1024px, and again at 900px and 769px, so the
+        exact width matters. Browser zoom does too.
+      placeholder: "1440px wide, 100% zoom"
+    validations:
+      required: true
+
+  - type: textarea
+    id: console
+    attributes:
+      label: Console errors
+      description: Anything in the browser console. Paste it as-is.
+      render: shell
+
+  - type: textarea
+    id: media
+    attributes:
+      label: Screenshot or recording
+      description: >
+        For anything visual this is the single most useful thing you can attach.
+        Drag the file straight into this box.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues and this isn't a duplicate
+          required: true
+        - label: I can reproduce this on a fresh page load
+          required: false
